@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Magical Hover Effect (w/ Tutorial)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="cards">
+  
+  <div class="card" onclick="pressionada('A')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅏ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>A</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card" onclick="pressionada('Ya')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅑ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Ya</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('Ó')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅓ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          
+          <div class="card-info-title">
+            <h3>Ó</h3>  
+          </div>    
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('Yó')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅕ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Yó</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('Ô')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅗ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Ô</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('Yô')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅛ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Yô</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('Ú')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅜ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Ú</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('Yú')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅠ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Yú</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('ㅡ')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅡ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>*</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('I')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅣ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          
+          <div class="card-info-title">
+            <h3>I</h3>  
+          </div>    
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('G')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㄱ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>"G"</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('N')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㄴ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>N</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('D')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㄷ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>"D"</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('R')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㄹ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>R</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('M')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅁ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>M</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('B')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅂ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>"B"</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('S')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅅ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          
+          <div class="card-info-title">
+            <h3>"S"</h3>  
+          </div>    
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('-')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅇ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>-</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('J')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅈ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>"J"</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('Tch')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅊ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>Tch</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('K')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅋ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>K</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('T')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅌ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>T</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="pressionada('P')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅍ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <div class="card-info-title">
+            <h3>P</h3>  
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" onclick="pressionada('RR')">
+    <div class="card-content">
+      <div class="card-image">
+        <h3 style="font-size: 70px;">ㅎ</h3>  
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          
+          <div class="card-info-title">
+            <h3>RR</h3>  
+          </div>    
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+
+
+</div>
+
+<a id="source-link" class="link" href="https://linear.app/features" target="_blank">
+  <i class="fa-solid fa-link"></i>
+  <span class="roboto-mono">Source</span>
+</a>
+
+<a id="youtube-link" class="link" href="https://youtu.be/htGfnF1zN4g" target="_blank">
+  <i class="fa-brands fa-youtube"></i>
+  <span>5 min Tutorial</span>
+</a>
+<!-- partial -->
+  <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
